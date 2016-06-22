@@ -25,14 +25,11 @@ $movie = $_POST["movie"];
 //Let's make a flag variable so we can control the rules of filling the form
 $flag = 1;
 
-if(empty($password)OR empty($passwordConfirm)){
-    echo "Give passwords <br>";
-    $flag=0;
-}
-else {
-    echo "Checking fields...<br>";
+
+//We check the passwords and must be the same to continue and at HTML we have required fields 
 
     if ($password == $passwordConfirm) {
+		echo "Checking fields...<br>";
         echo "Passwords match <br>";
         $pass = $password;
 
@@ -42,8 +39,10 @@ else {
         echo "Passwords don;t match";
         $flag = 0;
     }
-}
 
+
+
+//Pass the data to variables so later we query them to database
 if(!empty($first_name)){
     $first_name_r = mysqli_real_escape_string($dbc,trim($first_name));
 }

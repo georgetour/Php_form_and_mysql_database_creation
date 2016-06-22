@@ -31,7 +31,7 @@
 
         .labelForm{
             display: inline-block;
-            width:60px;
+            width:80px;
         }
 
         .fieldMargin{
