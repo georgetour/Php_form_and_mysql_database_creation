@@ -48,7 +48,7 @@ else {
     echo '';
     mysqli_free_result($r);
 }
-mysqli_close($dbc); //Διακοπή σύνδεσης με ΒΔ
+mysqli_close($dbc); //Stop connection with DB 
 
 
 ?>
