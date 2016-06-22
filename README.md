@@ -1,4 +1,4 @@
-# php_form_and_mysql_database_creation
+# Php_form_and_mysql_database_creation
 Mysql database creation with php and a form .We create the database ,then the table ,the form the user will see ,the submitted form 
 for the server and we can show all registers in a page.
 
