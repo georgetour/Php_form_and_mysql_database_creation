@@ -45,15 +45,15 @@
 
 
 <form class="firstForm" action="form-out.php" method="post" >
-    <div class="fieldMargin">Συμπληρώστε τα στοιχεία σας</div>
+    <div class="fieldMargin">Fill your info</div>
     <div class=" displayInlineBlock">
         <div class="someMargin">
-            <label class="labelForm">Επώνυμο:</label>
+            <label class="labelForm">Last name:</label>
             <input class="border fieldMargin" type="text" size="30" maxlength="40" name="last_name" required
                    value=<?php  if (isset($_POST['last_name'])) echo $_POST['last_name']; ?> >
         </div>
         <div class="someMargin">
-            <label class="labelForm">Όνομα :</label>
+            <label class="labelForm">First name:</label>
             <input class="border fieldMargin" type="text" size="30" maxlength="40" name="first_name" required
                    value=<?php  if (isset($_POST['first_name'])) echo $_POST['first_name']; ?> >
         </div>
