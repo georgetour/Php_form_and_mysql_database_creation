@@ -1,6 +1,6 @@
 <?php
 
-$pass = '';
+$pass = '';//It's better to have a password to your database and to your config.inc.php
 $user = 'root';
 $db_host = 'localhost';
 
@@ -17,7 +17,7 @@ $r = mysqli_query($dbc,$q);
 
 //Let's test if it succeeded
 if($r){
-    echo ('Δημιουργήσατε τη βάση δεδομένων');
+    echo ('Database created succesfully');
 
 }
 else{
