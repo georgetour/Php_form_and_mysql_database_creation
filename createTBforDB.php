@@ -12,7 +12,7 @@ echo "Connected to database server" . '<br>';
 //Let's create the string with the data for the table for the database
 $query = "CREATE TABLE user(
     last_name VARCHAR(40) NOT NULL,
-    firs_tname VARCHAR(40) NOT NULL,
+    first_name VARCHAR(40) NOT NULL,
     year SMALLINT UNSIGNED ,
     email VARCHAR(50)NOT NULL,
     phone BIGINT UNSIGNED NOT NULL,
